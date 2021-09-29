@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{808D3953-AAE0-429E-9C59-A2CEB9A4DFF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>My_MinorProject</RootNamespace>
+    <AssemblyName>My MinorProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2nd sem marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2nd sem marks.Designer.cs">
+      <DependentUpon>2nd sem marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAccountcreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccountcreate.Designer.cs">
+      <DependentUpon>AdminAccountcreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFeesViews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFeesViews.Designer.cs">
+      <DependentUpon>AdminFeesViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSE 1st Sem Marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSE 1st Sem Marks.Designer.cs">
+      <DependentUpon>CSE 1st Sem Marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSEfifthsemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSEfifthsemMarks.Designer.cs">
+      <DependentUpon>CSEfifthsemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSEforthsemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSEforthsemMarks.Designer.cs">
+      <DependentUpon>CSEforthsemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSESixthSemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSESixthSemMarks.Designer.cs">
+      <DependentUpon>CSESixthSemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSEthirdSemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSEthirdSemMarks.Designer.cs">
+      <DependentUpon>CSEthirdSemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="First Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="First Login Form.Designer.cs">
+      <DependentUpon>First Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualDetails.Designer.cs">
+      <DependentUpon>IndividualDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITfifthsemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITfifthsemMarks.Designer.cs">
+      <DependentUpon>ITfifthsemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITForthsemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITForthsemMarks.Designer.cs">
+      <DependentUpon>ITForthsemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITsixthSemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITsixthSemMarks.Designer.cs">
+      <DependentUpon>ITsixthSemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITthirdSemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITthirdSemMarks.Designer.cs">
+      <DependentUpon>ITthirdSemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MechfifthsemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MechfifthsemMarks.Designer.cs">
+      <DependentUpon>MechfifthsemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MechforthsemMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MechforthsemMarks.Designer.cs">
+      <DependentUpon>MechforthsemMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MechthirdSemmarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MechthirdSemmarks.Designer.cs">
+      <DependentUpon>MechthirdSemmarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Admission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Admission.Designer.cs">
+      <DependentUpon>New Admission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Form.Designer.cs">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayFees.Designer.cs">
+      <DependentUpon>PayFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Remove Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove Teacher.Designer.cs">
+      <DependentUpon>Remove Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove.Designer.cs">
+      <DependentUpon>Remove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search by Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search by Branch.Designer.cs">
+      <DependentUpon>Search by Branch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search By Semester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search By Semester.Designer.cs">
+      <DependentUpon>Search By Semester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Student By Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search Student By Name.Designer.cs">
+      <DependentUpon>Search Student By Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search Student.Designer.cs">
+      <DependentUpon>Search Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Teacher By Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search Teacher By Branch.Designer.cs">
+      <DependentUpon>Search Teacher By Branch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Teacher By Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search Teacher By Name.Designer.cs">
+      <DependentUpon>Search Teacher By Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sign Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign Up.Designer.cs">
+      <DependentUpon>Sign Up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student interface.Designer.cs">
+      <DependentUpon>Student interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Login Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Login Page.Designer.cs">
+      <DependentUpon>Student Login Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetailsformarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentDetailsformarks.Designer.cs">
+      <DependentUpon>StudentDetailsformarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentTeacherloginform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentTeacherloginform.Designer.cs">
+      <DependentUpon>StudentTeacherloginform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Studentupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Studentupdate.Designer.cs">
+      <DependentUpon>Studentupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Info.Designer.cs">
+      <DependentUpon>Teacher Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher interface.Designer.cs">
+      <DependentUpon>Teacher interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Search.Designer.cs">
+      <DependentUpon>Teacher Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teachersignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teachersignup.Designer.cs">
+      <DependentUpon>Teachersignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherUpdate.Designer.cs">
+      <DependentUpon>TeacherUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upgrade Sem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upgrade Sem.Designer.cs">
+      <DependentUpon>Upgrade Sem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usertype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usertype.Designer.cs">
+      <DependentUpon>Usertype.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="2nd sem marks.resx">
+      <DependentUpon>2nd sem marks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccountcreate.resx">
+      <DependentUpon>AdminAccountcreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFeesViews.resx">
+      <DependentUpon>AdminFeesViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSE 1st Sem Marks.resx">
+      <DependentUpon>CSE 1st Sem Marks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSEfifthsemMarks.resx">
+      <DependentUpon>CSEfifthsemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSEforthsemMarks.resx">
+      <DependentUpon>CSEforthsemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSESixthSemMarks.resx">
+      <DependentUpon>CSESixthSemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSEthirdSemMarks.resx">
+      <DependentUpon>CSEthirdSemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="First Login Form.resx">
+      <DependentUpon>First Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualDetails.resx">
+      <DependentUpon>IndividualDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITfifthsemMarks.resx">
+      <DependentUpon>ITfifthsemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITForthsemMarks.resx">
+      <DependentUpon>ITForthsemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITsixthSemMarks.resx">
+      <DependentUpon>ITsixthSemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITthirdSemMarks.resx">
+      <DependentUpon>ITthirdSemMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Admission.resx">
+      <DependentUpon>New Admission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayFees.resx">
+      <DependentUpon>PayFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Remove Teacher.resx">
+      <DependentUpon>Remove Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove.resx">
+      <DependentUpon>Remove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search by Branch.resx">
+      <DependentUpon>Search by Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search By Semester.resx">
+      <DependentUpon>Search By Semester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Student By Name.resx">
+      <DependentUpon>Search Student By Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Student.resx">
+      <DependentUpon>Search Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Teacher By Branch.resx">
+      <DependentUpon>Search Teacher By Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Teacher By Name.resx">
+      <DependentUpon>Search Teacher By Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign Up.resx">
+      <DependentUpon>Sign Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student interface.resx">
+      <DependentUpon>Student interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Login Page.resx">
+      <DependentUpon>Student Login Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDetailsformarks.resx">
+      <DependentUpon>StudentDetailsformarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentTeacherloginform.resx">
+      <DependentUpon>StudentTeacherloginform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studentupdate.resx">
+      <DependentUpon>Studentupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Info.resx">
+      <DependentUpon>Teacher Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher interface.resx">
+      <DependentUpon>Teacher interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Search.resx">
+      <DependentUpon>Teacher Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachersignup.resx">
+      <DependentUpon>Teachersignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherUpdate.resx">
+      <DependentUpon>TeacherUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upgrade Sem.resx">
+      <DependentUpon>Upgrade Sem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usertype.resx">
+      <DependentUpon>Usertype.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VID-20210221-WA0002.mp4" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

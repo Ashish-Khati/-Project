@@ -1,0 +1,48 @@
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\bin\Debug\My MinorProject.exe.config
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\bin\Debug\My MinorProject.exe
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\bin\Debug\My MinorProject.pdb
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My MinorProject.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Form1.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Properties.Resources.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My MinorProject.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My MinorProject.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My MinorProject.exe
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My MinorProject.pdb
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Admission_Form.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Upgrade_Sem.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Fees.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Search_Student.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Search_Student_By_Name.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Search_By_Semester.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Search_by_Branch.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.IndividualDetails.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Teacher_Info.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Teacher_Search.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Remove.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Search_Teacher_By_Name.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Search_Teacher_By_Branch.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.First_Login_Form.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Teacher_interface.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Student_Login_Page.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.CSE_1st_Sem_Marks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.StudentDetailsformarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject._2nd_sem_marks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.CSEforthsemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.CSEthirdSemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.CSEfifthsemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.CSESixthSemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.ITfifthsemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.ITForthsemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.ITsixthSemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.ITthirdSemMarks.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Sign_Up.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Student_interface.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.StudentTeacherloginform.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Usertype.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.PayFees.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.AdminFeesViews.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Remove_Teacher.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Teachersignup.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.Studentupdate.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.TeacherUpdate.resources
+C:\Users\DELL\Desktop\My MinorProject\My MinorProject\obj\Debug\My_MinorProject.AdminAccountcreate.resources
